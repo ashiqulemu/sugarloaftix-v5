@@ -156,7 +156,7 @@ html {
 }
 .card-style .content {
   padding: 25px;
-  background: #285203;
+  background: rgb(57, 114, 6);
   flex: 1;
   position: relative;
   min-height: 253px;
@@ -292,6 +292,7 @@ body::-webkit-scrollbar-thumb {
   z-index: 100;
   background: #285203;
   border-bottom: 1px inset rgba(45, 46, 45, 0.1882352941);
+  box-shadow: 2px 20px 10px 4px rgba(0, 0, 0, 0.2117647059);
 }
 .siteHeader:after {
   content: "";
@@ -345,7 +346,7 @@ body::-webkit-scrollbar-thumb {
 
 .recent_blog {
   padding: 50px 0;
-  background: linear-gradient(178deg, rgba(75, 117, 37, 0.71), rgb(100, 155, 103)), url(../images/bg.jpg);
+  background: linear-gradient(178deg, rgb(40, 82, 3), rgb(40, 82, 3)), url(../images/bg.jpg);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   background-size: 100% 100%;

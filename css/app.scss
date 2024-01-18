@@ -198,7 +198,7 @@ html {
 
     .content {
         padding: 25px;
-        background: $secondary;
+        background: rgb(57 114 6);
         flex: 1;
         position: relative;
         min-height: 253px;
@@ -384,6 +384,8 @@ body {
     z-index: 100;
     background: #285203;
     border-bottom: 1px inset #2d2e2d30;
+     
+    box-shadow: 2px 20px 10px 4px #00000036;
 
     &:after {
         content: "";
@@ -453,7 +455,7 @@ body {
 
 .recent_blog {
     padding: 50px 0;
-    background: linear-gradient(178deg, rgb(75 117 37 / 71%), rgb(100 155 103)), url(../images/bg.jpg);
+    background:linear-gradient(178deg, rgb(40 82 3), rgb(40 82 3)), url(../images/bg.jpg);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     background-size: 100% 100%;
