@@ -46,7 +46,7 @@ a {
 
 
 .footer-bg {
-    background: $primary;
+    background:lighten($color: $secondary, $amount: 10);
     background-size: 100% 100%;
 
     @media(min-width:1024px) {
@@ -68,7 +68,7 @@ a {
         top: -13px;
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        background: url(../images/footer-bg.png);
+        // background: url(../images/footer-bg.png);
         background-size: 100% 100%;
 
         @media(min-width:1024px) {
@@ -198,7 +198,7 @@ html {
 
     .content {
         padding: 25px;
-        background: rgb(57 114 6);
+        background:#957227;
         flex: 1;
         position: relative;
         min-height: 253px;
@@ -382,7 +382,7 @@ body {
     backdrop-filter: blur(18px);
     /* box-shadow: 5px -6px 20px 0px rgba(0, 0, 0, 0.4509803922); */
     z-index: 100;
-    background: #285203;
+    background: #957227;
     border-bottom: 1px inset #2d2e2d30;
      
     box-shadow: 2px 20px 10px 4px #00000036;
